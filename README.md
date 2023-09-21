@@ -17,7 +17,7 @@ Il faut alors résoudre le conflit, puis faire un pull request et fusionner à m
 
 ## Forker et cloner ce projet 
 
-[Projet à forker et cloner](https://github.com/Zerofiltre-Courses/sample_tbd_senario)  
+[Projet à forker et cloner](https://github.com/Zerofiltre-Courses/sample_tbd_scenario)  
 
 * [Ajoutez votre clé publique à github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) afin de pouvoir pousser du code sur github.
  
@@ -30,7 +30,7 @@ Clonez le projet :
 
 ```shell
 
-git  clone  git@github.com:YOUR_GITHUB_USERNAME/sample_tbd_senario.git
+git  clone  git@github.com:YOUR_GITHUB_USERNAME/sample_tbd_scenario.git
 
 ```
 
@@ -48,7 +48,7 @@ echo "pat modification" >> a.txt
 echo "pat modification" >> b.txt
 echo "pat modification" >> c.txt
 git add .
-git commit -m -n "pat modifications"
+git commit -n -m "pat modifications"
 ```
 
 ### Jour 1 : Hamadi débute son dev
@@ -65,7 +65,7 @@ echo "hamadi modification" >> b.txt
 echo "hamadi modification" >> c.txt
 echo "hamadi modification" >> d.txt
 git add .
-git commit -m -n "hamadi modifications"
+git commit -n -m "hamadi modifications"
 ```
 
 ### Jour 2 : Hamadi termine son dev 
